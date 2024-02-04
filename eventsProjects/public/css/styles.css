@@ -196,6 +196,53 @@ header {
     margin: 20px 0;
 }
 
+
+#items-list{
+    list-style: none;
+    padding-left: 0;
+
+}
+#items-list li{
+    display: flex;
+}
+
+
+#description-container{
+    margin-top: 30px;
+}
+
+.dasboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.dashboard-event-container th{
+    width: 25%;
+}
+
+.dashboard-events-container form{
+    display: inline-block;
+}
+
+/**EDIT PAGE **/
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+.alredy-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+}
+
 /*footer*/
 
 footer{
